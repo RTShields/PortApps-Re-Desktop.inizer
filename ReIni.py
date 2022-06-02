@@ -16,7 +16,7 @@ directory = {
 
 def write_ini(file,Dir,key):
 	global source
-	source_icon = source + 'PortableApps/PortableApps.com/App/Graphics/WindowsFolderIcons/'
+	source_icon =  '../PortableApps/PortableApps.com/App/Graphics/WindowsFolderIcons/'
 	
 	with open(file,'w') as rec:
 		rec.write('[.ShellClassInfo]\n')
